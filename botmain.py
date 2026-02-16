@@ -74,6 +74,7 @@ async def on_message(message):
 
     if len(msgargs) == 1: # See if there was any arguments. Also prevents out of bounds / list index errors.
      match msgcontent:
+        case "moreinfo" | "help2" : await features_moreinfo(channel)
         case "hi" | "hello" : await sendmsg(channel,f"Hi {message.author.name}")
         case "help" | "commands" : await features_help(channel)
         case "sysinfo" | "system_information" : await features_sysinfo(channel)
