@@ -1,0 +1,7 @@
+discord.py
+psutil
+Pillow
+aiohttp
+cryptography
+requests
+pyinstaller
