@@ -13,6 +13,10 @@ echo [INFO] Updating dependencies...
 if exist "requirements.txt" (
     ".venv\Scripts\python.exe" -m pip install -r requirements.txt
 )
+if exist "builder.py" (
+	echo [INFO] Running builder.py
+	".venv\Scripts\python.exe" builder.py
+)
 
 
 echo.
@@ -39,7 +43,7 @@ echo [ACTION] Installing PyInstaller in .venv...
 ".venv\Scripts\python.exe" -m pip install pyinstaller
 
 echo [ACTION] Starting PyInstaller build...
-".venv\Scripts\python.exe" -m PyInstaller --noconsole --one-file --collect-all discord botmain.py
+".venv\Scripts\python.exe" -m PyInstaller --noconsole --onefile --collect-all discord botmain.py
 
 if %errorlevel% equ 0 (
     echo [SUCCESS] Build complete! Check the /dist folder.
