@@ -1,6 +1,6 @@
-key = b'0Gp7TQ61uNsYyD8hyYE6_6wsd-dwmDFmPVvJ86-uEh8=' 
-encrypted_token = b'gAAAAABpkytWai0D2IkC9BlravjBoD4B0HkyYHJ70cISgAJnAISELwyxKAvl8l6G4kRcdSOykqA56L3VBPPcK7p_68IB0C3qKSQ0a31Y3MrzQxKzaXCUUdxM89-Ia5G-2dOegBkqvUK3gjsa6qB_Q9jGqr9GLBjPI3BgkhSigCfhans8CGY6wkM=' 
-encrypted_guildid = b'gAAAAABpkytWYgmIr_uQexn9dd7iYupAi6ulcabggJig2kJ-dSPXsGR60RNOljf82hEE5inpQ5QWaN-2GagijgJD0Q1wAoljZjpgjZJG5khFm0fR4CSItVQ=' 
+key = b'key' 
+encrypted_token = b'token' 
+encrypted_guildid = b'guildid' 
 # made : 14/02/2026
 # handles cryptography by providing releveant functions
 
